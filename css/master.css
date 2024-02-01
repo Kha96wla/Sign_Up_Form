@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    width: 350px;
+    height: 500px;
+    background-color: #2196f3;
+    margin: 10px auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+.parent .container {
+    width: 300px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+  
+    
+}
+
+.parent .container .information {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.container .information input {
+    display: block;
+    padding: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    /* margin-bottom: 2px; */
+    margin-top: 10px;
+    width: 100%;
+    border-bottom: 1px solid #9d9d9a;
+    position: relative;
+}
+
+.parent .container .information .one .icon_one {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    width: 10px;
+    height: 40%;
+    color: #9d9d9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+   
+}
+
+.parent .container .information .two .icon_two {
+    position: absolute;
+    left: 0;
+    top: 22px;
+    width: 10px;
+    height: 40%;
+    color: #9d9d9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+   
+}
+
+.parent .container .information .three .icon_three {
+    position: absolute;
+    left: 0;
+    top: 63px;
+    width: 10px;
+    height: 40%;
+    color: #9d9d9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+   
+}
+
+.parent .container .information .four .icon_four {
+    position: absolute;
+    left: 0;
+    top: 104px;
+    width: 10px;
+    height: 40%;
+    color: #9d9d9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+   
+}
+
+ input {
+    border: none;
+    outline: none;
+}
+
+.parent .container > input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    background-color: #2196f3;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 5px;
+   
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+.parent .container .log {
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    color: #9d9d9a;
+    border-bottom: 2px dashed #ededed;
+    font-size: 12px;
+    font-weight: bold;
+   
+    
+}
+
+span {
+    color: #2196f3;
+}
+
+.parent .container .reg {
+    margin-top: 20px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.parent .container .final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.parent .container .final .fb {
+    color: #3b5998;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.parent .container .final .twi {
+    color: #ffffff;
+    width: 27px;
+    height: 27px;
+    background-color: #1da1f2;
+    border-radius: 50%;
+    border: 2px solid #1da1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.parent .container .final .gog {
+    color: #db4437;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+
+
+
+
